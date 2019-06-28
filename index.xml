@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PondersThinker</title>
+    <link>http://thinker.github.io/</link>
+    <description>Recent content on PondersThinker</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 27 Jun 2019 19:59:16 +0800</lastBuildDate>
+    
+	<atom:link href="http://thinker.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Test My Blog</title>
+      <link>http://thinker.github.io/post/test/</link>
+      <pubDate>Thu, 27 Jun 2019 19:59:16 +0800</pubDate>
+      
+      <guid>http://thinker.github.io/post/test/</guid>
+      <description>Hello ZhouYaFeng 1.ʲô�Ƿ��� ���ͼ������������͡�����������ԭ���ľ��������Ͳ�������Ȼ����ʹ��/����ʱ���������Ĳ���(����ʵ��) ���з��Ͱ��������࣬���ͷ��������ͽӿ� 2.����Ҫ������Щ���� ��Java SE 1.5֮ǰ��û�з��͵��������£�ͨ��������Object��������ʵ�ֲ����ġ����⻯���������⻯��������ȱ����Ҫ����ʽ��ǿ������ת����������ת����Ҫ�󿪷��߶�ʵ�ʲ������Ϳ���Ԥ֪�������½��еġ�����ǿ������ת�����������������������ܲ���ʾ�����������е�ʱ���ų����쳣������һ����ȫ������
+���͵ĺô����ڱ�����ʱ���������Ͱ�ȫ���������е�ǿ��ת�������Զ�����ʽ�ģ������ߴ����������ʡ�
+package GenericTest; import java.util.ArrayList; import java.util.List; /** * class GenericTest1 * ʵ��1��û���õ����ͣ��б��ڴ洢���ݵ�ʱ��û�������������͡����Ӽ�����ȡ�������ͱ�����Object���ͣ� * ��ʹ�õ������е�����ʱ�ͻ���Ҫ����ǿ��ת�������������е�������String��Inter���;ͻ��ڱ���ʱ���� * Ϊ�˽����������͵����⣬ʹ�÷��������� * @date 2019/3/4 */ public class GenericTest1 { public static void main(String[] args){ List list = new ArrayList(); list.add(&amp;quot;hahaha&amp;quot;); list.add(&amp;quot;huhuhu&amp;quot;); list.add(100); for(int i = 0; i&amp;lt;list.size();i++){ String name = (String) list.get(i); System.out.println(&amp;quot;name:&amp;quot;+name); } } } package GenericTest; import java.util.ArrayList; import java.util.List; /** * class GenericTest * @author ��ʱ�� */ public class GenericTest { public static void main(String[] args){ // List list = new ArrayList(); // list.</description>
+    </item>
+    
+  </channel>
+</rss>
